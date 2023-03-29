@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+
+        table {
+                border: solid 0px black
+            }
+            table thead th {
+                background-color: rgb(255, 255, 255);
+                color: rgb(21, 19, 19);
+    
+            }
+            table tfoot td {
+                background-color: lightgray;
+            }
+    
+           
+    
+            table tbody tr:hover td{
+                background-color: #e9e9e9;
+                cursor: pointer; 
+            }
+    
+    
+        
+        </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="home.html"><h3>Página Principal</h3></a></li>
+                <li><a href="atendimento.html"><h3>Horário de Atendimento</h3></a></li>
+                <li><a href="contato.html"><h3>Contato</h3></a></li>
+                <li><a href="sobre.html"><h3>Sobre a Clínica</h3></a></li>
+
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <p></p>
+                <img  src="clinicadobem.png" alt="">
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                
+                
+                <table cellpadding="2" cellspacing="1" width="400" align="left">
+                    <thead>
+                        <tr>
+                            <th colspan="4">Contato</th>
+                        </tr>
+                        
+    
+                        </thead>
+                        <tbody align="left">
+                            <tr>
+                                <td title="#">WhatsApp </td>
+                                <td title="#">(31)99999-0000</td>        
+                            </tr>
+                            <tr>
+                                <td>Endereco:</td>
+                                <td>Rua Alameda Ezequiel Dias, 258</td>
+                                
+                            </tr>
+                            <tr>
+                                <td colspan="2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15004.041026473484!2d-43.94124177611286!3d-19.923972612269537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699ee534ac055%3A0x6b1999530e7be424!2sAlameda%20Ezequiel%20Dias%2C%20258%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG%2C%2030130-110!5e0!3m2!1spt-BR!2sbr!4v1680130681678!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>                         
+                            </tr>
+
+                            <tr>
+                                <td align="center" colspan="2"> <b> Deixe sua mensagem</b></td>
+                                
+                            </tr>
+
+                        </tbody>
+                    <tr>
+                        
+                    </tr>
+                </table><p>
+                    <form action="">
+                        <label>Nome: </label><input type="text" /><br>
+                        <label>E-mail: </label><input type="email" /><br>
+                        <label>Assunto: </label><input type="text" /><br>
+                        <label>Mensagem: </label><input type="textarea" /><br>
+                        <label>Button: </label><input type="submit" value="Enviar"/>
+                        <label>Button: </label><input type="reset" value="Limpar"/><br>
+                    </form>
+                
+                
+
+
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <h1>Contato</h1><br>
+                Telefone: (31)0000-0000<br>
+                e-mail: contato@clinicadobem.com.br<br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
